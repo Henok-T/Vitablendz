@@ -1,0 +1,827 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before,q:after {
+	content:'';
+}
+
+abbr,acronym { border:0;
+}
+
+/* General Demo Style */
+
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+   
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 10px 10px 10px 10px;
+	margin: 0px 10px 10px -5%;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/*
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+
+}
+.container > header h2, p.info{
+	font-size: 16px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+*/
+
+
+
+
+/**  Background images slideshow ends here  */
+
+
+
+/**  MODAL effect starts  here  */
+.modal-content, .close{
+    
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.modal{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    max-width: 100%;
+    height: 600px;
+    max-height: 100%;
+   
+   
+}
+.modal.fade .modal-dialog {
+   -webkit-transform: translate(0);
+   -moz-transform: translate(0);
+   transform: translate(0);
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 10px 20px 10px 10px;
+    background-image: url(../images/pattern2.png);
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;}
+
+
+.modal-footer{
+    border-bottom: none;
+    height: 60px;
+    text-decoration: none !important;
+    text-decoration-color: none !important;
+    text-decoration-line: none !important;
+    /*background-image: url(../images/newfooter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.close {
+    background-color: white;
+    float: right;
+    font-size: 60px;
+    line-height: 20px;
+    padding: 0;
+    color: green;
+    text-shadow:
+        1px 0px 1px green,
+        2px 0px 1px #ccc,
+        4px 3px 1px #ccc,
+        4px 1px 1px #ccc,
+        4px 1px 1px #ccc;
+}
+
+.modal h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-shadow:
+        1px 0px 1px green,
+        2px 0px 1px green,
+        4px 3px 1px green,
+        4px 1px 1px green,
+        4px 1px 1px green;
+}
+
+.btn{
+margin: 2px;
+}
+.modal-body{
+    font-size: 20;
+}
+
+#vitaLogo{
+    border-radius: 15px;
+    width: 300px;
+    
+}
+
+.card h5{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 740px) {
+	.container > header{
+		text-align: center;
+        left: -21%;
+	}
+    
+    .btn{
+        position: relative;
+        left: 60%;
+        transform: translateY(20%);}
+}
+
+
+
+@media screen and (max-width: 415px) {
+	.container > header{
+		text-align: center;
+        left: 4%;
+	}
+    
+    .btn{
+        position: relative;
+        left: -30%;
+        transform: translateY(220%);}
+    
+    #contactus{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #openingHours{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #adressImage{
+        position: relative;
+        margin-top: 0px;}
+    
+    
+}
+
+@media screen and (max-width: 376px) {
+	.container > header{
+		text-align: center;
+	}
+    
+    .btn{
+        position: relative;
+        left: -22%;
+        transform: translateY(220%);}
+    
+    #contactus{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #openingHours{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #adressImage{
+        position: relative;
+        margin-top: 0px;}
+}
+
+@media screen and (max-width: 322px) {
+	.container > header{
+		text-align: center;
+        left: 1%;
+	}
+    
+    .btn{
+        position: relative;
+        left: -5%;
+        transform: translateY(220%);}
+    
+    #contactus{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #openingHours{
+        position: relative;
+        text-align:left;
+        margin-bottom: 20px;
+        font-size: 18px;}
+    
+    #adressImage{
+        position: relative;
+        margin-top: 0px;}
+}
+
+
+/**  MODAL effect ends here  */
+
+
+/**collapse meny style starts here**/
+.card-body{
+    font-size: 18px;
+    color: brown;
+}
+
+#headingOne {
+    background-color: #BCED91;
+}
+
+#headingTwo {
+    background-color: #fff4b2;
+}
+
+#headingThree {
+    background-color: #DBFEF8;
+}
+
+#headingFour {
+    background-color: #fff4b2;
+}
+
+#headingFive {
+    background-color:#BCED91;
+}
+
+/**collapse meny style ends here**/
+
+/**Kontakt starts here***/
+
+#contactus{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+#openingHours{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+#faceInstaIcons{
+    position: relative;
+    float: left;
+     margin-left: 50px;
+}
+
+#kontakts{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+/**Kontakt ends here***/
+
+/** facebook insta icons style starts here  ***/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Let's style the wrapper in such away that, 
+it should always be at the center of the browser */
+.wrapper2 {
+    position: relative;
+    width: auto;
+    /*padding-top: 50px;
+    padding-left: 40px;*/
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.wrapper2 ul {
+  list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+  and float them to left and set its border and border-radius.
+ 
+.wrapper2 ul li {
+  width: 175px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  float: left;
+  transition: all 0.5s ease;
+}*/
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.wrapper2 ul li .fa {
+  color: #D8E2DC;
+  margin-top: 0px;
+    margin-bottom: 10px;
+  transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+  to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.wrapper2 ul li:hover.facebook {
+  /* border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;*/
+  transition: all 0.5s ease;
+}
+
+.wrapper2 ul li:hover .fa-facebook {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+
+}
+
+
+
+/* instagram */
+.wrapper2 ul li:hover.instagram {
+ /* border: 5px solid #bc2a8d;
+  box-shadow: 0 0 15px #bc2a8d;*/
+  transition: all 0.5s ease;
+}
+
+.wrapper2 ul li:hover .fa-instagram {
+  color: #bc2a8d;
+  text-shadow: 0 0 15px #bc2a8d;
+  transition: all 0.5s ease;
+}
+/*
+
+/*twitter
+.wrapper2 ul li:hover.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+.wrapper2 ul li:hover .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+
+
+/* google ----
+.wrapper2 ul li:hover.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.wrapper2 ul li:hover .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+/* whatsapp ----
+.wrapper2 ul li:hover.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+
+.wrapper2 ul li:hover .fa-whatsapp {
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}*/
+
+/** the below media query needs editing 
+
+@media screen and (max-width: 640px){
+  .wrappe2r {
+      width: 350px;
+  }
+  .wrapper2 ul li{
+      margin-top: 10px;
+  }
+  .wrappe2r ul li.google{
+      margin-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .wrapper2 {
+      width: 150px;
+  }
+  .wrapper2 ul li{
+      margin:15px;
+  }
+  .wrappe2r ul li.google{
+      margin-left: 15px;
+  }
+}
+**/
+
+/** facebook insta icons style ends here ***/
+
+.cb-slideshow,
+            .cb-slideshow:after { 
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                z-index: 0; 
+          }
+          
+          .cb-slideshow:after { 
+                content: '';
+              background: transparent url(../images/pattern.png) repeat top left;
+              
+          }
+          
+          .cb-slideshow li span {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                color: transparent;
+                background-size: 100%;
+                background-position: 50% 50%;
+                background-repeat: none;
+                opacity: 0;
+                z-index: 0;
+                -webkit-backface-visibility: hidden;
+                animation: imageAnimation 36s linear infinite 0s;
+          }
+          
+           .cb-slideshow li div {
+                z-index: 1000;
+                position: absolute;
+                bottom: 10px;
+                left: 0px;
+                width: 100%;
+                text-align: left;
+                opacity: 0;
+                animation: titleAnimation 36s linear infinite 0s;
+            }
+          
+          .cb-slideshow li div h3 {
+                font-family: 'Wendy One', sans-serif;
+                font-size: 60px;
+                padding: 0 30px;
+                line-height: 120px;
+                color: #bc2e1e;
+                text-shadow:
+                    0 1px 0px #FFFFFF,
+                    1px 0 0px #FFFFFF,
+                    1px 0px 1px #FFFFFF,
+                    2px 0px 1px #FFFFFF,
+                    2px 0px 2px #FFFFFF,
+                    3px 0px 2px #FFFFFF,
+                    3px 0px 2px #FFFFFF,
+                    4px 0px 3px #FFFFFF,
+                    4px 0px 3px #FFFFFF,
+                    5px 0px 5px #FFFFFF,
+                    6px 0px 6px #008000	,
+                    7px 0px 7px #008000	,
+                    7px 0px 7px #008000	,
+                    2px 0px 8px #008000	;
+
+            }
+          
+          .cb-slideshow li:nth-child(1) span { 
+                background-image: url("../images/6.jpg"); 
+                background-repeat: no-repeat;
+          }
+          
+          
+          .cb-slideshow li:nth-child(2) span {
+                background-image:  url("../images/5.jpg");
+                background-repeat:no-repeat;
+                animation-delay: 6s;
+            }
+          
+          
+          .cb-slideshow li:nth-child(3) span {
+                background-image:url("../images/4.jpg");
+                background-repeat:no-repeat;
+                animation-delay: 12s;
+          }
+          
+          .cb-slideshow li:nth-child(4) span {
+                background-image: url("../images/3.jpg");
+                background-repeat:no-repeat;
+                animation-delay: 18s;
+          }
+          
+          .cb-slideshow li:nth-child(5) span {
+                background-image: url("../images/2.png");
+                background-repeat:no-repeat;
+                animation-delay: 24s;
+          }
+          
+          .cb-slideshow li:nth-child(6) span {
+                background-image: url("../images/1.jpg");
+                background-repeat:no-repeat;
+                animation-delay: 30s;
+          }
+          
+          .cb-slideshow li:nth-child(2) div {
+                animation-delay: 6s;
+            }
+          
+            .cb-slideshow li:nth-child(2) div { 
+                animation-delay: 6s; 
+            }
+          
+            .cb-slideshow li:nth-child(3) div { 
+                animation-delay: 12s; 
+            }
+          
+            .cb-slideshow li:nth-child(4) div { 
+                animation-delay: 18s; 
+            }
+          
+            .cb-slideshow li:nth-child(5) div { 
+                animation-delay: 24s; 
+            }
+          
+            .cb-slideshow li:nth-child(6) div { 
+                animation-delay: 30s; 
+            }
+
+          
+            @keyframes imageAnimation { 
+                0% { opacity: 0; animation-timing-function: ease-in; }
+                8% { opacity: 1; animation-timing-function: ease-out; }
+                17% { opacity: 1 }
+                25% { opacity: 0 }
+                100% { opacity: 0 }
+            }
+          
+            @keyframes titleAnimation { 
+                0% { opacity: 0 }
+                8% { opacity: 1 }
+                17% { opacity: 1 }
+                19% { opacity: 0 }
+                100% { opacity: 0 }
+            }
+          
+          .no-cssanimations .cb-slideshow li span{
+                opacity: 1;
+            }
+          
+            @media screen and (max-width: 1140px) { 
+                .cb-slideshow li div h3 { font-size: 30px }
+                 .cb-slideshow li span {
+                  background-position: center; 
+                  background-size:  cover;
+              }
+            }
+          
+            @media screen and (max-width: 600px) { 
+                .cb-slideshow li div h3 { font-size: 20px }
+                
+                 .cb-slideshow li span {
+                  background-position: center; 
+                  background-size:  cover;
+              }
+            }
+          
+            @keyframes imageAnimation { 
+            0% {
+                opacity: 0;
+                animation-timing-function: ease-in;
+            }
+            8% {
+                opacity: 1;
+                transform: scale(1.05);
+                animation-timing-function: ease-out;
+            }
+            17% {
+                opacity: 1;
+                transform: scale(1.1) rotate(3deg);
+            }
+            25% {
+                opacity: 0;
+                transform: scale(1.1) rotate(3deg);
+            }
+            100% { opacity: 0 }
+            }
+          
+            @keyframes titleAnimation { 
+            0% {
+                opacity: 0;
+                transform: translateX(200px);
+            }
+            8% {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+            17% {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+            19% {
+                opacity: 0;
+                transform: translateX(-400px);
+            }
+            25% { opacity: 0 }
+            100% { opacity: 0 }
+        }
+          
+          /* Show at least something when animations not supported */
+          
+          .no-cssanimations .cb-slideshow li span{
+	           opacity: 1;
+          }
+          
+          @media screen and (max-width: 1140px) { 
+	           .cb-slideshow
+              
+              li div h3 { font-size: 30px }
+          }
+          
+          @media screen and (max-width: 600px) { 
+	           .cb-slideshow li div h3 { font-size: 20px }
+              
+              .cb-slideshow li span {
+                  background-position: center; 
+                  background-size:  cover;
+              }
+          }
+          
+          body {
+              font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+              background:white;
+              font-weight: 400;
+              overflow-y: hidden;
+              overflow-x: hidden;}
+}
+/**  Background images slideshow ends here  */
+
+
+/**  added SIDE MENU starts here 
+
+        .menu {
+          font-weight: 100;
+          background: #efefef;
+          width: 180px;
+          height: 100%;
+          padding-left: 50px;
+          position: fixed;
+          z-index: 100;
+          -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+          right: -130px;
+          transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+          color: #222;
+          
+        
+        }
+        .menu:hover, .menu:focus {
+          transform: translate3d(-130px, 0, 0);
+          animation-timing-function: 1s ease-in;
+        }
+        .menu #menu {
+          top: 50%;
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          transform: rotate(270deg);
+          left: -55px;
+          font-weight: 800;
+          font-size: 25px;
+            letter-spacing: 10px;
+        }
+        .menu #nav {
+          display: block !important;
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          font-weight: 100;
+        }
+        .menu #nav #zirzir {
+          padding-bottom: 30px;
+          list-style-type: none;
+        }
+        .menu #nav #zirzir a {
+          display: block;
+          text-decoration: none;
+          color: inherit;
+          transition: all 0.3s;
+          -webkit-transition: all 0.3s;
+        }
+        .menu #nav #zirzir a:hover {
+          color: #aaa;
+        }
+
+        .intro {
+          position: absolute;
+          top: 30%;
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          font-size: 45px;
+          text-align: center;
+          font-style: italic;
+        }
+
+   added SIDE MENU ends here  */
+
+#OmOssInfo img{
+    border-radius: 8px;
+}
+
+.fa-map-marker{
+    font-size: 20px;
+}
+
+
+#Eriweblogo{
+    position: relative;
+   bottom: 0;
+}
+
+#Eriweblogo:hover {
+    background-color: rgba(20,20,20,0.8);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 15px white;
+}
+
+#DeveloperInfo{
+    color: white !important;
+    text-decoration: none !important;
+    text-decoration-color: none !important;
+    text-decoration-line: none !important;
+    
+}
+
+/* additional effects styles  */
