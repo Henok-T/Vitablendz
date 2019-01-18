@@ -82,7 +82,7 @@ a{
     
     background-color: rgba(0,0,0,0.4);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -133,25 +133,20 @@ a{
     border-top-right-radius: 0px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    font-size: 15px;
 }
 
 .close {
-    background-color: white;
     float: right;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 20px;
     padding: 0;
-    color: green;
-    text-shadow:
-        1px 0px 1px green,
-        2px 0px 1px #ccc,
-        4px 3px 1px #ccc,
-        4px 1px 1px #ccc,
-        4px 1px 1px #ccc;
+    color: white;
+    z-index: 2000;
 }
 
 .modal h4{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
     text-shadow:
@@ -166,7 +161,7 @@ a{
 margin: 2px;
 }
 .modal-body{
-    font-size: 20;
+    font-size: 15px;
 }
 
 #vitaLogo{
@@ -316,18 +311,21 @@ margin: 2px;
     position: relative;
     float: left;
     margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 #openingHours{
     position: relative;
     float: left;
     margin-left: 50px;
+    font-size: 15px;
 }
 
 #faceInstaIcons{
     position: relative;
     float: left;
-     margin-left: 50px;
+    margin:0 auto;
 }
 
 #kontakts{
