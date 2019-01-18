@@ -149,12 +149,6 @@ a{
     font-size: 20px;
     font-weight: 700;
     color: white;
-    text-shadow:
-        1px 0px 1px green,
-        2px 0px 1px green,
-        4px 3px 1px green,
-        4px 1px 1px green,
-        4px 1px 1px green;
 }
 
 .btn{
