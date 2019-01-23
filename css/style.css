@@ -272,374 +272,353 @@ margin: 2px;
 
 
 /**collapse meny style starts here**/
-.card-body{
-    font-size: 18px;
-    color: brown;
-}
+    .card-body{
+        font-size: 18px;
+        color: brown;
+    }
 
-#headingOne {
-    background-color: #b2ffb2;
-}
+    #headingOne {
+        background-color: #b2ffb2;
+    }
 
-#headingTwo {
-    background-color: #99ff99;
-}
+    #headingTwo {
+        background-color: #99ff99;
+    }
 
-#headingThree {
-    background-color: #7fff7f;
-}
+    #headingThree {
+        background-color: #7fff7f;
+    }
 
-#headingFour {
-    background-color: #66ff66;
-}
+    #headingFour {
+        background-color: #66ff66;
+    }
 
-#headingFive {
-    background-color:#32ff32;
-}
+    #headingFive {
+        background-color:#32ff32;
+    }
 
 /**collapse meny style ends here**/
 
 /**Kontakt starts here***/
 
-#contactus{
-    position: relative;
-    float: left;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
+    #contactus{
+        position: relative;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
 
-#openingHours{
-    position: relative;
-    float: left;
-    margin-left: 50px;
-    font-size: 15px;
-}
+    #openingHours{
+        position: relative;
+        float: left;
+        margin-left: 50px;
+        font-size: 15px;
+    }
 
-#faceInstaIcons{
-    position: relative;
-    float: left;
-    margin:0 auto;
-}
+    #faceInstaIcons{
+        position: relative;
+        float: left;
+        margin:0 auto;
+    }
 
-#kontakts{
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-/**Kontakt ends here***/
+    #kontakts{
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    /**Kontakt ends here***/
 
-/** facebook insta icons style starts here  ***/
+    /** facebook insta icons style starts here  ***/
 
-* {
-  margin: 0;
-  padding: 0;
-}
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
-/* Let's style the wrapper in such away that, 
-it should always be at the center of the browser */
-.wrapper2 {
-    position: relative;
-    width: auto;
-    /*padding-top: 50px;
-    padding-left: 40px;*/
-}
+    /* wrapper be at the center of the browser */
+    .wrapper2 {
+        position: relative;
+        width: auto;
+        /*padding-top: 50px;
+        padding-left: 40px;*/
+    }
 
-/* Style the Un-order list by setting its list-style to none */
-.wrapper2 ul {
-  list-style: none;
-}
-
-/* Style the list items inside the UL list, by setting its width, height and line-height 
-  and float them to left and set its border and border-radius.
- 
-.wrapper2 ul li {
-  width: 175px;
-  height: 75px;
-  line-height: 75px;
-  margin: 0 10px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 5px solid #D8E2DC;
-  float: left;
-  transition: all 0.5s ease;
-}*/
+    /* Style the Un-order list by setting its list-style to none */
+    .wrapper2 ul {
+      list-style: none;
+    }
 
 /* Style the icons by setting its color and margin-top value to 20px 
 to align it properly */
-.wrapper2 ul li .fa {
-  color: #D8E2DC;
-  margin-top: 0px;
-    margin-bottom: 10px;
-  transition: all 0.5s ease;
-}
+    .wrapper2 ul li .fa {
+        color: #D8E2DC;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        transition: all 0.5s ease;
+    }
 
-/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-  to icons for glowing effect and use transition property for smooth transition effect. */
+
 /*facebook*/
-.wrapper2 ul li:hover.facebook {
-  /* border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;*/
-  transition: all 0.5s ease;
-}
+    .wrapper2 ul li:hover.facebook {
+      /* border: 5px solid #3b5998;
+      box-shadow: 0 0 15px #3b5998;*/
+      transition: all 0.5s ease;
+    }
 
-.wrapper2 ul li:hover .fa-facebook {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
-  transition: all 0.5s ease;
+    .wrapper2 ul li:hover .fa-facebook {
+      color: #3b5998;
+      text-shadow: 0 0 15px #3b5998;
+      transition: all 0.5s ease;
 
-}
+    }
 
+    /* instagram */
+    .wrapper2 ul li:hover.instagram {
+     /* border: 5px solid #bc2a8d;
+      box-shadow: 0 0 15px #bc2a8d;*/
+      transition: all 0.5s ease;
+    }
 
+    .wrapper2 ul li:hover .fa-instagram {
+      color: #bc2a8d;
+      text-shadow: 0 0 15px #bc2a8d;
+      transition: all 0.5s ease;
+    }
 
-/* instagram */
-.wrapper2 ul li:hover.instagram {
- /* border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;*/
-  transition: all 0.5s ease;
-}
-
-.wrapper2 ul li:hover .fa-instagram {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
-}
-
-.cb-slideshow,
-            .cb-slideshow:after { 
-                position: fixed;
-                width: 100%;
-                height: 100%;
-                top: 0px;
-                left: 0px;
-                z-index: 0; 
-          }
+.cb-slideshow,.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+      }
           
-          .cb-slideshow:after { 
-                content: '';
+  .cb-slideshow:after { 
+        content: '';
 /*              background: transparent url(../images/pattern.png) repeat top left;*/
-              
-          }
-          
-          .cb-slideshow li span {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                color: transparent;
-                background-size: 100%;
-                background-position: 50% 50%;
-                background-repeat: none;
-                opacity: 0;
-                z-index: 0;
-                -webkit-backface-visibility: hidden;
-                animation: imageAnimation 36s linear infinite 0s;
-          }
-          
-           .cb-slideshow li div {
-                z-index: 1000;
-                position: absolute;
-                bottom: 10px;
-                left: 0px;
-                width: 100%;
-                text-align: left;
-                opacity: 0;
-                animation: titleAnimation 36s linear infinite 0s;
-            }
-          
-          .cb-slideshow li div h3 {
-                font-family: 'Wendy One', sans-serif;
-                font-size: 60px;
-                padding: 0 30px;
-                line-height: 120px;
-                color: #bc2e1e;
-                text-shadow:
-                    0 1px 0px #FFFFFF,
-                    1px 0 0px #FFFFFF,
-                    1px 0px 1px #FFFFFF,
-                    2px 0px 1px #FFFFFF,
-                    2px 0px 2px #FFFFFF,
-                    3px 0px 2px #FFFFFF,
-                    3px 0px 2px #FFFFFF,
-                    4px 0px 3px #FFFFFF,
-                    4px 0px 3px #FFFFFF,
-                    5px 0px 5px #FFFFFF,
-                    6px 0px 6px #008000	,
-                    7px 0px 7px #008000	,
-                    7px 0px 7px #008000	,
-                    2px 0px 8px #008000	;
 
-            }
-          
-          .cb-slideshow li:nth-child(1) span { 
-                background-image: url("../images/6.jpg"); 
-                background-repeat: no-repeat;
-          }
-          
-          
-          .cb-slideshow li:nth-child(2) span {
-                background-image:  url("../images/5.jpg");
-                background-repeat:no-repeat;
-                animation-delay: 6s;
-            }
-          
-          
-          .cb-slideshow li:nth-child(3) span {
-                background-image:url("../images/4.jpg");
-                background-repeat:no-repeat;
-                animation-delay: 12s;
-          }
-          
-          .cb-slideshow li:nth-child(4) span {
-                background-image: url("../images/3.jpg");
-                background-repeat:no-repeat;
-                animation-delay: 18s;
-          }
-          
-          .cb-slideshow li:nth-child(5) span {
-                background-image: url("../images/2.png");
-                background-repeat:no-repeat;
-                animation-delay: 24s;
-          }
-          
-          .cb-slideshow li:nth-child(6) span {
-                background-image: url("../images/1.jpg");
-                background-repeat:no-repeat;
-                animation-delay: 30s;
-          }
-          
-          .cb-slideshow li:nth-child(2) div {
-                animation-delay: 6s;
-            }
-          
-            .cb-slideshow li:nth-child(2) div { 
-                animation-delay: 6s; 
-            }
-          
-            .cb-slideshow li:nth-child(3) div { 
-                animation-delay: 12s; 
-            }
-          
-            .cb-slideshow li:nth-child(4) div { 
-                animation-delay: 18s; 
-            }
-          
-            .cb-slideshow li:nth-child(5) div { 
-                animation-delay: 24s; 
-            }
-          
-            .cb-slideshow li:nth-child(6) div { 
-                animation-delay: 30s; 
-            }
+  }
 
-          
-            @keyframes imageAnimation { 
-                0% { opacity: 0; animation-timing-function: ease-in; }
-                8% { opacity: 1; animation-timing-function: ease-out; }
-                17% { opacity: 1 }
-                25% { opacity: 0 }
-                100% { opacity: 0 }
-            }
-          
-            @keyframes titleAnimation { 
-                0% { opacity: 0 }
-                8% { opacity: 1 }
-                17% { opacity: 1 }
-                19% { opacity: 0 }
-                100% { opacity: 0 }
-            }
-          
-          .no-cssanimations .cb-slideshow li span{
-                opacity: 1;
-            }
-          
-            @media screen and (max-width: 1140px) { 
-                .cb-slideshow li div h3 { font-size: 30px }
-                 .cb-slideshow li span {
-                  background-position: center; 
-                  background-size:  cover;
-              }
-            }
-          
-            @media screen and (max-width: 600px) { 
-                .cb-slideshow li div h3 { font-size: 20px }
-                
-                 .cb-slideshow li span {
-                  background-position: center; 
-                  background-size:  cover;
-              }
-            }
-          
-            @keyframes imageAnimation { 
-            0% {
-                opacity: 0;
-                animation-timing-function: ease-in;
-            }
-            8% {
-                opacity: 1;
-                transform: scale(1.05);
-                animation-timing-function: ease-out;
-            }
-            17% {
-                opacity: 1;
-                transform: scale(1.1) rotate(3deg);
-            }
-            25% {
-                opacity: 0;
-                transform: scale(1.1) rotate(3deg);
-            }
-            100% { opacity: 0 }
-            }
-          
-            @keyframes titleAnimation { 
-            0% {
-                opacity: 0;
-                transform: translateX(200px);
-            }
-            8% {
-                opacity: 1;
-                transform: translateX(0px);
-            }
-            17% {
-                opacity: 1;
-                transform: translateX(0px);
-            }
-            19% {
-                opacity: 0;
-                transform: translateX(-400px);
-            }
-            25% { opacity: 0 }
-            100% { opacity: 0 }
-        }
-          
-          /* Show at least something when animations not supported */
-          
-          .no-cssanimations .cb-slideshow li span{
-	           opacity: 1;
-          }
-          
-          @media screen and (max-width: 1140px) { 
-	           .cb-slideshow
-              
-              li div h3 { font-size: 30px }
-          }
-          
-          @media screen and (max-width: 600px) { 
-	           .cb-slideshow li div h3 { font-size: 20px }
-              
-              .cb-slideshow li span {
-                  background-position: center; 
-                  background-size:  cover;
-              }
-          }
-          
-          body {
-              font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-              background:white;
-              font-weight: 400;
-              overflow-y: hidden;
-              overflow-x: hidden;}
+  .cb-slideshow li span {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: transparent;
+        background-size: 100%;
+        background-position: 50% 50%;
+        background-repeat: none;
+        opacity: 0;
+        z-index: 0;
+        -webkit-backface-visibility: hidden;
+        animation: imageAnimation 36s linear infinite 0s;
+  }
+
+   .cb-slideshow li div {
+        z-index: 1000;
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 100%;
+        text-align: left;
+        opacity: 0;
+        animation: titleAnimation 36s linear infinite 0s;
+    }
+
+  .cb-slideshow li div h3 {
+        font-family: 'Wendy One', sans-serif;
+        font-size: 60px;
+        padding: 0 30px;
+        line-height: 120px;
+        color: #bc2e1e;
+        text-shadow:
+            0 1px 0px #FFFFFF,
+            1px 0 0px #FFFFFF,
+            1px 0px 1px #FFFFFF,
+            2px 0px 1px #FFFFFF,
+            2px 0px 2px #FFFFFF,
+            3px 0px 2px #FFFFFF,
+            3px 0px 2px #FFFFFF,
+            4px 0px 3px #FFFFFF,
+            4px 0px 3px #FFFFFF,
+            5px 0px 5px #FFFFFF,
+            6px 0px 6px #008000	,
+            7px 0px 7px #008000	,
+            7px 0px 7px #008000	,
+            2px 0px 8px #008000	;
+
+    }
+
+  .cb-slideshow li:nth-child(1) span { 
+        background-image: url("../images/6.jpg"); 
+        background-repeat: no-repeat;
+  }
+
+
+  .cb-slideshow li:nth-child(2) span {
+        background-image:  url("../images/5.jpg");
+        background-repeat:no-repeat;
+        animation-delay: 6s;
+    }
+
+
+  .cb-slideshow li:nth-child(3) span {
+        background-image:url("../images/4.jpg");
+        background-repeat:no-repeat;
+        animation-delay: 12s;
+  }
+
+  .cb-slideshow li:nth-child(4) span {
+        background-image: url("../images/3.jpg");
+        background-repeat:no-repeat;
+        animation-delay: 18s;
+  }
+
+  .cb-slideshow li:nth-child(5) span {
+        background-image: url("../images/2.png");
+        background-repeat:no-repeat;
+        animation-delay: 24s;
+  }
+
+  .cb-slideshow li:nth-child(6) span {
+        background-image: url("../images/1.jpg");
+        background-repeat:no-repeat;
+        animation-delay: 30s;
+  }
+
+  .cb-slideshow li:nth-child(2) div {
+        animation-delay: 6s;
+    }
+
+    .cb-slideshow li:nth-child(2) div { 
+        animation-delay: 6s; 
+    }
+
+    .cb-slideshow li:nth-child(3) div { 
+        animation-delay: 12s; 
+    }
+
+    .cb-slideshow li:nth-child(4) div { 
+        animation-delay: 18s; 
+    }
+
+    .cb-slideshow li:nth-child(5) div { 
+        animation-delay: 24s; 
+    }
+
+    .cb-slideshow li:nth-child(6) div { 
+        animation-delay: 30s; 
+    }
+
+
+    @keyframes imageAnimation { 
+        0% { opacity: 0; animation-timing-function: ease-in; }
+        8% { opacity: 1; animation-timing-function: ease-out; }
+        17% { opacity: 1 }
+        25% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+    @keyframes titleAnimation { 
+        0% { opacity: 0 }
+        8% { opacity: 1 }
+        17% { opacity: 1 }
+        19% { opacity: 0 }
+        100% { opacity: 0 }
+    }
+
+  .no-cssanimations .cb-slideshow li span{
+        opacity: 1;
+    }
+
+    @media screen and (max-width: 1140px) { 
+        .cb-slideshow li div h3 { font-size: 30px }
+         .cb-slideshow li span {
+          background-position: center; 
+          background-size:  cover;
+      }
+    }
+
+    @media screen and (max-width: 600px) { 
+        .cb-slideshow li div h3 { font-size: 20px }
+
+         .cb-slideshow li span {
+          background-position: center; 
+          background-size:  cover;
+      }
+    }
+
+    @keyframes imageAnimation { 
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        transform: scale(1.05);
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+        transform: scale(1.1) rotate(3deg);
+    }
+    25% {
+        opacity: 0;
+        transform: scale(1.1) rotate(3deg);
+    }
+    100% { opacity: 0 }
+    }
+
+    @keyframes titleAnimation { 
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    8% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    17% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    19% {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+  /* Show at least something when animations not supported */
+
+  .no-cssanimations .cb-slideshow li span{
+       opacity: 1;
+  }
+
+  @media screen and (max-width: 1140px) { 
+       .cb-slideshow
+
+      li div h3 { font-size: 30px }
+  }
+
+  @media screen and (max-width: 600px) { 
+       .cb-slideshow li div h3 { font-size: 20px }
+
+      .cb-slideshow li span {
+          background-position: center; 
+          background-size:  cover;
+      }
+  }
+
+  body {
+      font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+      background:white;
+      font-weight: 400;
+      overflow-y: hidden;
+      overflow-x: hidden;}
 }
 /**  Background images slideshow ends here  */
 
