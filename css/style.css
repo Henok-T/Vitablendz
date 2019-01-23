@@ -404,77 +404,6 @@ to align it properly */
   text-shadow: 0 0 15px #bc2a8d;
   transition: all 0.5s ease;
 }
-/*
-
-/*twitter
-.wrapper2 ul li:hover.twitter {
-  border: 5px solid #00aced;
-  box-shadow: 0 0 15px #00aced;
-  transition: all 0.5s ease;
-}
-
-.wrapper2 ul li:hover .fa-twitter {
-  color: #00aced;
-  text-shadow: 0 0 15px #00aced;
-  transition: all 0.5s ease;
-}
-
-
-/* google ----
-.wrapper2 ul li:hover.google {
-  border: 5px solid #dd4b39;
-  box-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
-
-.wrapper2 ul li:hover .fa-google {
-  color: #dd4b39;
-  text-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
-
-/* whatsapp ----
-.wrapper2 ul li:hover.whatsapp {
-  border: 5px solid #4dc247;
-  box-shadow: 0 0 15px #4dc247;
-  transition: all 0.5s ease;
-}
-
-.wrapper2 ul li:hover .fa-whatsapp {
-  color: #4dc247;
-  text-shadow: 0 0 15px #4dc247;
-  transition: all 0.5s ease;
-}*/
-
-/** the below media query needs editing 
-
-@media screen and (max-width: 640px){
-  .wrappe2r {
-      width: 350px;
-  }
-  .wrapper2 ul li{
-      margin-top: 10px;
-  }
-  .wrappe2r ul li.google{
-      margin-left: 60px;
-  }
-}
-
-
-@media screen and (max-width: 340px){
-  .wrapper2 {
-      width: 150px;
-  }
-  .wrapper2 ul li{
-      margin:15px;
-  }
-  .wrappe2r ul li.google{
-      margin-left: 15px;
-  }
-}
-**/
-
-/** facebook insta icons style ends here ***/
 
 .cb-slideshow,
             .cb-slideshow:after { 
@@ -715,105 +644,31 @@ to align it properly */
 /**  Background images slideshow ends here  */
 
 
-/**  added SIDE MENU starts here 
-
-        .menu {
-          font-weight: 100;
-          background: #efefef;
-          width: 180px;
-          height: 100%;
-          padding-left: 50px;
-          position: fixed;
-          z-index: 100;
-          -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
-          right: -130px;
-          transition: all 0.3s;
-          -webkit-transition: all 0.3s;
-          color: #222;
-          
-        
-        }
-        .menu:hover, .menu:focus {
-          transform: translate3d(-130px, 0, 0);
-          animation-timing-function: 1s ease-in;
-        }
-        .menu #menu {
-          top: 50%;
-          position: absolute;
-          top: 50%;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          transform: rotate(270deg);
-          left: -55px;
-          font-weight: 800;
-          font-size: 25px;
-            letter-spacing: 10px;
-        }
-        .menu #nav {
-          display: block !important;
-          position: absolute;
-          top: 50%;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          font-weight: 100;
-        }
-        .menu #nav #zirzir {
-          padding-bottom: 30px;
-          list-style-type: none;
-        }
-        .menu #nav #zirzir a {
-          display: block;
-          text-decoration: none;
-          color: inherit;
-          transition: all 0.3s;
-          -webkit-transition: all 0.3s;
-        }
-        .menu #nav #zirzir a:hover {
-          color: #aaa;
+        #OmOssInfo img{
+            border-radius: 8px;
         }
 
-        .intro {
-          position: absolute;
-          top: 30%;
-          margin: 0 auto;
-          left: 0;
-          right: 0;
-          font-size: 45px;
-          text-align: center;
-          font-style: italic;
+        .fa-map-marker{
+            font-size: 20px;
         }
 
-   added SIDE MENU ends here  */
 
-#OmOssInfo img{
-    border-radius: 8px;
-}
+        #Eriweblogo{
+            position: relative;
+           bottom: 0;
+        }
 
-.fa-map-marker{
-    font-size: 20px;
-}
+        #Eriweblogo:hover {
+            background-color: rgba(20,20,20,0.8);
+            transition: all 0.5s ease;
+            box-shadow: 0 0 15px white;
+        }
 
+        #DeveloperInfo{
+            color: white !important;
+            text-decoration: none !important;
+            text-decoration-color: none !important;
+            text-decoration-line: none !important;
 
-#Eriweblogo{
-    position: relative;
-   bottom: 0;
-}
+        }
 
-#Eriweblogo:hover {
-    background-color: rgba(20,20,20,0.8);
-    transition: all 0.5s ease;
-    box-shadow: 0 0 15px white;
-}
-
-#DeveloperInfo{
-    color: white !important;
-    text-decoration: none !important;
-    text-decoration-color: none !important;
-    text-decoration-line: none !important;
-    
-}
-
-/* additional effects styles  */
