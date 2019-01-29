@@ -169,15 +169,16 @@ margin: 2px;
 }
 
 @media screen and (max-width: 740px) {
-	.container > header{
-		text-align: center;
-        left: -21%;
-	}
-    
-    .btn{
-        position: relative;
-        left: 60%;
-        transform: translateY(20%);}
+.container > header{
+    text-align: center;
+    left: -21%;
+}
+
+.btn{
+    position: relative;
+    left: 60%;
+    transform: translateY(20%);
+    }
 }
 
 
@@ -623,31 +624,17 @@ to align it properly */
 /**  Background images slideshow ends here  */
 
 
-        #OmOssInfo img{
-            border-radius: 8px;
-        }
+#OmOssInfo img{
+    border-radius: 8px;
+}
 
-        .fa-map-marker{
-            font-size: 20px;
-        }
-
-
-        #Eriweblogo{
-            position: relative;
-           bottom: 0;
-        }
-
-        #Eriweblogo:hover {
-            background-color: rgba(20,20,20,0.8);
-            transition: all 0.5s ease;
-            box-shadow: 0 0 15px white;
-        }
-
-        #DeveloperInfo{
-            color: white !important;
-            text-decoration: none !important;
-            text-decoration-color: none !important;
-            text-decoration-line: none !important;
-
-        }
+.fa-map-marker{
+    font-size: 20px;
+}
+#DeveloperInfo{
+    color: white !important;
+    text-decoration: none !important;
+    text-decoration-color: none !important;
+    text-decoration-line: none !important;
+}
 
