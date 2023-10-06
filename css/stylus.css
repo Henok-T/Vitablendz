@@ -49,16 +49,16 @@ body {
     align-items: center;
     column-gap: 20px;
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.35);
+    color: rgb(255 255 255 / 67%);
 }
 
 .icon {
     margin-right: 3px;
-    color: rgba(255, 255, 255, 0.17);
+    color: rgb(255 255 255 / 67%);
 }
 
 .bottom-bar {
-    background-color: rgb(19, 22, 26);
+    background-color: rgba(244, 245, 247, 0);
 }
 
 .bottom-bar__content {
@@ -79,9 +79,10 @@ body {
 }
 
 .logo__img {
-    height: 60px;
-    width: 150px;
+    height: 70px;
+    width: 180px;
     border-radius: 27px;
+    margin-top: 5px;
 }
 
 .logo__text {
@@ -105,13 +106,13 @@ body {
 .nav__item {}
 
 .nav__link {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(1, 0, 0);
     transition: all 0.2s;
 }
 
 .nav__link:hover,
 .nav__link:focus {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(65, 222, 3);
 }
 
 .btn {
@@ -133,6 +134,8 @@ body {
 .hamburger {
     cursor: pointer;
     display: none;
+    background-color: #fa8c84;
+    border-radius: 15px;
 }
 
 .bar {
@@ -168,7 +171,7 @@ body {
         top: 90px;
         left: -100%;
         transform: translateX(-50%);
-        background-color: rgb(19, 22, 26);
+        background-color: rgb(255 255 255 / 61%);
         width: 100%;
         padding: 10px 0 25px;
     }

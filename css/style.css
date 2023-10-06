@@ -94,10 +94,12 @@ a {
 .modal-content,
 .close {
 
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(255, 254, 254, 0.085); */
     color: white;
     font-size: 30px;
     text-align: center;
+    background: transparent;
+    border: red;
 
 }
 
@@ -128,10 +130,10 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 40px;
     border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 40px;
 }
 
 
@@ -302,23 +304,29 @@ a {
 }
 
 #headingOne {
-    background-color: #b2ffb2;
+    /* background-color: #b2ffb2; */
+    background-image: url("/images/meny1.png");
+    background-position: center center;
 }
 
 #headingTwo {
-    background-color: #99ff99;
+    background-image: url("/images/meny2.png");
+    background-position: center center;
 }
 
 #headingThree {
-    background-color: #7fff7f;
+    background-image: url("/images/meny3.png");
+    background-position: center center;
 }
 
 #headingFour {
-    background-color: #66ff66;
+    background-image: url("/images/meny4.png");
+    background-position: center center;
 }
 
 #headingFive {
-    background-color: #32ff32;
+    background-image: url("/images/meny5.png");
+    background-position: center center;
 }
 
 /**collapse meny style ends here**/
