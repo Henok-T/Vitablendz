@@ -73,6 +73,7 @@ a {
 .container {
     position: relative;
     text-align: center;
+    display: flex;
 
 }
 
@@ -84,7 +85,7 @@ a {
     padding: 10px 10px 10px 10px;
     margin: 0px 10px 10px -5%;
     position: relative;
-    display: flex;
+    /* display: flex; */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
