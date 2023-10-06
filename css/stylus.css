@@ -115,7 +115,7 @@ body {
     color: rgb(65, 222, 3);
 }
 
-.btn {
+/* .btn {
     color: #fff;
     background-color: #0071e3;
     padding: 8px 20px;
@@ -129,7 +129,7 @@ body {
 
 .btn:hover {
     background-color: rgb(28, 128, 228);
-}
+} */
 
 .hamburger {
     cursor: pointer;
@@ -199,7 +199,6 @@ body {
 @media (max-width: 360px) {
     .top-bar__content {
         font-size: 10px;
-        color: rgb(255 255 255 / 81%);
-
+        color: rgb(255 255 255 / 81%) !important;
     }
 }
