@@ -1,358 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="no">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="css/stylus.css" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
-  <script type="text/javascript" src="js/modernizr.custom.25376.js"></script>
-  <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-    crossorigin="anonymous"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-    crossorigin="anonymous"></script>
-
-  <title>Vitablendz</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vitablendz — Frozen yogurt, smoothie og juice i Stavanger</title>
+  <meta name="description" content="Vitablendz på Arkaden Torgterrassen i Stavanger. Frozen yogurt, smoothie, superjuice, iskaffe og matcha latte. Blend your Boost.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-
-<body id="page">
-
-  <header class="header">
-    <div class="top-bar">
-      <div class="top-bar__content">
-        <section class="phone">
-          <i class="fa fa-phone" aria-hidden="true" style="color:yellow;"></i>
-          <span>(+47) 00000000</span>
-        </section>
-        <section class="email">
-          <i class="fa fa-envelope-o" aria-hidden="true" style="color:lightgreen;"></i>
-          <span>info@vitablendz.no</span>
-        </section>
-      </div>
-    </div>
-
-    <div class="bottom-bar">
-      <div class="bottom-bar__content">
-        <a href="#" class="logo">
-          <img class="logo__img" src="/images/vitablendzLogo.jpg" alt="logo">
-          <!-- <span class="logo__text">CloudServices</span> -->
-        </a>
-
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="#" data-toggle="modal" data-target="#myModal2">Meny</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#" data-toggle="modal" data-target="#myModal1">Om oss</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#" data-toggle="modal" data-target="#myModal3">kontakt</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="hamburger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
-      </div>
+<body>
+  <a class="skip-link" href="#innhold">Hopp til innhold</a>
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Vitablendz — Blend your Boost">
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Åpne meny">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" data-nav>
+        <a class="nav-link is-active" href="index.html">Hjem</a>
+        <a class="nav-link" href="meny.html">Meny</a>
+        <a class="nav-link" href="om-oss.html">Om oss</a>
+        <a class="nav-link" href="kontakt.html">Kontakt</a>
+        <a class="btn btn-green" href="meny.html">Se menyen</a>
+      </nav>
     </div>
   </header>
 
-  <ul class="cb-slideshow">
-    <li><span>Image 06</span>
-      <div>
-        <h3>Frozen·Yogurt</h3>
-      </div>
-    </li>
-    <li><span>Image 05</span>
-      <div>
-        <h3>Smoothie·shakes</h3>
-      </div>
-    </li>
-    <li><span>Image 04</span>
-      <div>
-        <h3>Super·Juice</h3>
-      </div>
-    </li>
-    <li><span>Image 03</span>
-      <div>
-        <h3>Iced·Coffee</h3>
-      </div>
-    </li>
-    <li><span>Image 02</span>
-      <div>
-        <h3>Green·Tea·Latte</h3>
-      </div>
-    </li>
-    <li><span>Image 01</span>
-      <div>
-        <h3>Blend·Your·Boost</h3>
-      </div>
-    </li>
-  </ul>
-  <div class="container">
-    <!-- <header>
-      <div id="navContent">
-        <img src="images/vitablendzLogo.jpg" width="250" height="100" alt="" id="vitaLogo">
-      
-
-        <form class="form-inline" style="position:absolute; top:40%; right:1%; transform:translateY(-50%);">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
-            Om oss
-          </button>
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal2">
-            Meny
-          </button>
-          <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal3">
-            Kontakt
-          </button>
-        </form>
-      </div>
-
-    </header> -->
-  </div>
-
-  <!-- modal 1 starts here -->
-  <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-              aria-hidden="true">&times;</span></button>
-
-          <h4 class="modal-title animated bounceInLeft" id="myModalLabel">Om oss</h4>
+  <main id="innhold">
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Arkaden Torgterrassen · Stavanger</p>
+        <h1>Friskt. Kaldt. Fylt med boost.</h1>
+        <p class="tagline">Blend your Boost!</p>
+        <p class="lead">Frozen yogurt, smoothie, superjuice, iskaffe og matcha latte — laget med ekte frukt og bær midt i Stavanger sentrum.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="meny.html">Se menyen</a>
+          <a class="btn btn-ghost" href="kontakt.html">Finn oss</a>
         </div>
-        <div class="modal-body">
-
-          <div class="container-fluid">
-            <div class="row" id="OmOssInfo">
-              <div class="col-sd-4">
-                <p>Vitablendz er en Frozen Yogurt og Smoothie/Juicebar som serverer herlige friske, velsmakende
-                  produkter med bedre helsegevinst. Vi er lokalisert på Arkaden Torgterassen kjøpesenter i Stavanger
-                  sentrum.<br><br> Vi garanterer byens beste iskaffe og Green tea latte. Kom og bedøm selv!</p>
-              </div>
-            </div>
-
-            <div class="row" id="OmOssInfo">
-              <div class="col-sd-4">
-                <img alt="Adress" src="images/newfooter.jpg" width="100%" height="100%">
-              </div>
-            </div>
+        <div class="meta-row">
+          <div class="meta-card">
+            <span>Åpent</span>
+            hverdager 10–20<br>lørdag 10–18
+          </div>
+          <div class="meta-card">
+            <span>Sted</span>
+            Klubbgata 5<br>4013 Stavanger
+          </div>
+          <div class="meta-card">
+            <span>Pris fra</span>
+            40 kr
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- modal 2 starts here -->
-  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content ">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-              aria-hidden="true">&times;</span></button>
-
-          <h4 class="modal-title animated bounceInLeft" id="myModalLabel">Meny</h4>
-        </div>
-        <div class="modal-body">
-          <div id="accordion" role="tablist">
-            <div class="card">
-              <div class="card-header" role="tab" id="headingOne">
-                <h5 class="mb-0">
-                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Frozen Yogurt
-                  </a>
-                </h5>
-              </div>
-
-              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"
-                data-parent="#accordion">
-                <div class="card-body">
-                  Laget med EKTE frukt og bær. Velg mellom naturlige frukt og bær som så blandes med plain Frozen
-                  Yogurt. Topp med dine favoritter.Tilsettes Supermatprodukter for en ekstra næringsboost! Pris fra:
-                  40kr
-                  <br>
-                  <img src="images/frozenYougurt.png" width="20%" height="20%">
-                  <img src="images/frozenYougurt.png" width="20%" height="20%">
-                  <img src="images/frozenYougurt.png" width="20%" height="20%">
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingTwo">
-                <h5 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
-                    aria-controls="collapseTwo">
-                    Smoothieshakes
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
-                data-parent="#accordion">
-                <div class="card-body">
-                  Fruktsmoothie og rist jeg en drikk. Nøye utvalgte ingredienser med fokus på sunnhet. Oppkvikkende og
-                  gir metthetsfølelse som varer. Tilsettes Supermatprodukter for en ekstra næringsboost! Pris fra: 40kr
-                  <br>
-                  <img src="images/Smoothieshakes.png" width="20%" height="20%">
-                  <img src="images/Smoothieshakes.png" width="20%" height="20%">
-                  <img src="images/Smoothieshakes.png" width="20%" height="20%">
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingThree">
-                <h5 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    SuperJuice
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
-                data-parent="#accordion">
-                <div class="card-body">
-                  Herlig fersk juice med Supermat. Oppkvikkende og full av antioksidanter, vitaminer og mineraler. Masse
-                  mikronæringsstoffer i forhold til kalorimengde. Pris fra: 40kr
-                  <br>
-                  <img src="images/applejuice.jpg" width="20%" height="20%">
-                  <img src="images/bananajuice.jpg" width="20%" height="20%">
-                  <img src="images/carrotjuice.jpg" width="20%" height="20%">
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingFour">
-                <h5 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false"
-                    aria-controls="collapseFour">
-                    Iced Coffee
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour"
-                data-parent="#accordion">
-                <div class="card-body">
-                  Latte med eksotisk lucuma frukt. Mocca med kraftig kakao. Pris fra: 40kr
-                  <br>
-                  <img src="images/icecoffeee.png" width="20%" height="20%">
-                  <img src="images/icecoffeee.png" width="20%" height="20%">
-                  <img src="images/icecoffeee.png" width="20%" height="20%">
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingFive">
-                <h5 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false"
-                    aria-controls="collapseFive">
-                    Green Tea Latte
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive"
-                data-parent="#accordion">
-                <div class="card-body">
-                  Green tea latte med ekte Matcha japansk grønn te. Pris fra: 40kr <br>
-                  <img src="images/iscafe%20greentea%20late.png" width="20%" height="20%">
-                  <img src="images/iscafe%20greentea%20late.png" width="20%" height="20%">
-                  <img src="images/iscafe%20greentea%20late.png" width="20%" height="20%">
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="hero-visual">
+        <img src="assets/images/hero-1.jpg" alt="Smoothies og juicer med frisk frukt">
+        <div class="float-chip">
+          <strong>Supermat i glasset</strong>
+          Extra næringsboost etter ønske
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- modal 3 starts here -->
-  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-              aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title animated bounceInLeft" id="myModalLabel"> Kontakt</h4>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Hva vi blender</p>
+          <h2>Fem måter å fylle dagen på.</h2>
         </div>
-        <div class="modal-body">
-          <div class="container-fluid">
-            <div class="row" id="kontakts">
-              <div class="col-sd-4">
-                <div id="contactus">
-                  <i class="fa fa-map-marker" aria-hidden="true" style="color:orange;"></i> Klubbgata 5, 4013 Stavanger
-                  <br>
-                  <i class="fa fa-phone" aria-hidden="true" style="color:yellow;"></i> (+47) 00000000
-                  <br>
-                  <i class="fa fa-envelope-o" aria-hidden="true" style="color:lightgreen;"></i> info@vitablendz.no
-                  <br>
-                </div>
-                <div id="openingHours">
-                  Åpningstider:<br>
-                  Hverdager 10:00-20:00 <br>
-                  Lørdag 10:00-18:00 <br>
-                </div>
-                <div id="faceInstaIcons">
-                  <div class="wrapper2">
-                    <ul>
-                      <a href="https://www.facebook.com/Vitablendzstavanger/" target="_blank">
-                        <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
-                      </a>
-                      <a href="https://www.instagram.com/vitablendz/" target="_blank">
-                        <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
-                      </a>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+        <div class="card-grid">
+          <article class="product">
+            <div class="product-media">
+              <img src="assets/images/frozen-yogurt.png" alt="Frozen yogurt med jordbær">
             </div>
-            <div class="row" id="adressImage">
-              <div class="col-sd-4">
-                <a href="https://www.google.no/maps/place/Vitablendz+Arcade+Torgterrassen/@58.970761,5.7336372,17z/data=!3m1!4b1!4m5!3m4!1s0x463a35361034522b:0xa3e59a1e9c621ef0!8m2!3d58.970761!4d5.7358259"
-                  target="_blank"><img alt="Adress" src="images/svgSentrum.png" width="100%" height="100%"></a>
-              </div>
+            <div class="product-body">
+              <h3>Frozen yogurt</h3>
+              <p>Ekte frukt og bær blandet med naturell frozen yogurt. Topp med favorittene dine.</p>
+              <div class="price">Fra 40 kr</div>
             </div>
-          </div>
+          </article>
+          <article class="product">
+            <div class="product-media">
+              <img src="assets/images/smoothie.png" alt="Jordbærsmoothie">
+            </div>
+            <div class="product-body">
+              <h3>Smoothieshakes</h3>
+              <p>Fruktsmoothie og shake i én drikk. Oppkvikkende, med metthet som varer.</p>
+              <div class="price">Fra 40 kr</div>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-media">
+              <img src="assets/images/apple-juice.jpg" alt="Fersk eplejuice">
+            </div>
+            <div class="product-body">
+              <h3>Superjuice</h3>
+              <p>Ferskpresset juice med supermat. Antioksidanter, vitaminer og mineraler.</p>
+              <div class="price">Fra 40 kr</div>
+            </div>
+          </article>
         </div>
-        <div class="modal-footer" id="DeveloperInfo">
-          <p
-            style="font-family: Helvetica Neue, Helvetica, Arial; font-size: 10px; margin-bottom: 0px; text-align: left; color: white;">
-            ©2023 Vitablendz AS <br> Developed by: Tihtina Media. </p>
+        <p style="margin-top:28px"><a class="btn btn-green" href="meny.html">Hele menyen</a></p>
+      </div>
+    </section>
+
+    <section class="section band">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Om oss</p>
+          <h2>En juicebar med helsegevinst.</h2>
+          <p class="lead">Vitablendz er en frozen yogurt- og smoothie/juicebar som serverer friske, velsmakende produkter. Vi holder til på Arkaden Torgterrassen i Stavanger sentrum — og lover byens beste iskaffe og green tea latte.</p>
+          <p><a class="btn btn-red" href="om-oss.html">Les mer</a></p>
+        </div>
+        <div class="photo-card" style="background:transparent;box-shadow:none;padding:0">
+          <img src="assets/images/green-tea-latte.png" alt="Green tea latte med matcha" style="background:#fff;border-radius:28px;height:380px;object-fit:contain">
         </div>
       </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Besøk</p>
+          <h2>Klubbgata 5, Stavanger</h2>
+          <p class="lead">Rett i Arkaden Torgterrassen. Stikk innom før jobb, etter trening eller midt i handleøkten.</p>
+          <p>
+            <a class="btn btn-green" href="kontakt.html">Kontakt og kart</a>
+          </p>
+        </div>
+        <div class="map-wrap">
+          <iframe title="Kart over Vitablendz på Klubbgata 5 i Stavanger" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Vitablendz%20Arcade%20Torgterrassen%2C%20Klubbgata%205%2C%204013%20Stavanger&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/images/logo.jpg" alt="Vitablendz"></a>
+        <p>Frozen yogurt og juicebar på Arkaden Torgterrassen.</p>
+      </div>
+      <div>
+        <h3>Besøk</h3>
+        <p>Klubbgata 5, 4013 Stavanger<br><a href="tel:+4795824330">958 24 330</a><br><a href="mailto:info@vitablendz.no">info@vitablendz.no</a></p>
+      </div>
+      <div>
+        <h3>Åpent</h3>
+        <p>Hverdager 10:00–20:00<br>Lørdag 10:00–18:00<br>Søndag stengt</p>
+      </div>
     </div>
-  </div>
-
-  <script>
-    const navEl = document.querySelector('.nav');
-    const hamburgerEl = document.querySelector('.hamburger');
-    const navItemEls = document.querySelectorAll('.nav__item');
-
-    hamburgerEl.addEventListener('click', () => {
-      navEl.classList.toggle('nav--open');
-      hamburgerEl.classList.toggle('hamburger--open');
-    });
-
-    navItemEls.forEach(navItemEl => {
-      navItemEl.addEventListener('click', () => {
-        navEl.classList.remove('nav--open');
-        hamburgerEl.classList.remove('hamburger--open');
-      });
-    });
-  </script>
+    <div class="wrap legal">
+      <span>© <span data-year></span> Vitablendz AS</span>
+      <span>Blend your Boost</span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
 </body>
-
 </html>

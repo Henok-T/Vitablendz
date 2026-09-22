@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt — Vitablendz Stavanger</title>
+  <meta name="description" content="Kontakt Vitablendz: Klubbgata 5, 4013 Stavanger. Telefon 958 24 330, e-post info@vitablendz.no.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header solid" data-header>
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.jpg" alt="Vitablendz — Blend your Boost">
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Åpne meny">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" data-nav>
+        <a class="nav-link" href="index.html">Hjem</a>
+        <a class="nav-link" href="meny.html">Meny</a>
+        <a class="nav-link" href="om-oss.html">Om oss</a>
+        <a class="nav-link is-active" href="kontakt.html">Kontakt</a>
+        <a class="btn btn-red" href="tel:+4795824330">Ring oss</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Kontakt</p>
+        <h1>Vi står bak disken.</h1>
+        <p class="lead">Spørsmål om menyen, allergener eller catering til et lite arrangement? Send en melding eller stikk innom Arkaden.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap contact-grid">
+        <aside class="info-card">
+          <h2>Vitablendz</h2>
+          <ul class="info-list">
+            <li>
+              <strong>Adresse</strong>
+              Klubbgata 5<br>
+              Arkaden Torgterrassen<br>
+              4013 Stavanger
+            </li>
+            <li>
+              <strong>Telefon</strong>
+              <a href="tel:+4795824330">958 24 330</a>
+            </li>
+            <li>
+              <strong>E-post</strong>
+              <a href="mailto:info@vitablendz.no">info@vitablendz.no</a>
+            </li>
+            <li>
+              <strong>Åpningstider</strong>
+              Hverdager 10:00–20:00<br>
+              Lørdag 10:00–18:00<br>
+              Søndag stengt
+            </li>
+          </ul>
+          <div class="socials">
+            <a href="https://www.facebook.com/Vitablendzstavanger/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/vitablendz/" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </aside>
+
+        <div class="form-card">
+          <h2>Send melding</h2>
+          <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-contact-form>
+            <input type="hidden" name="form-name" value="kontakt">
+            <p class="hidden"><label>Ikke fyll ut <input name="bot-field"></label></p>
+            <div class="form-grid">
+              <label class="field">
+                <span>Fullt navn</span>
+                <input type="text" name="navn" required autocomplete="name">
+              </label>
+              <label class="field">
+                <span>E-post</span>
+                <input type="email" name="epost" required autocomplete="email">
+              </label>
+              <label class="field">
+                <span>Melding</span>
+                <textarea name="melding" required></textarea>
+              </label>
+              <button class="btn btn-green" type="submit">Send melding</button>
+              <p class="form-status" data-form-status role="status"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap map-wrap" style="min-height:420px">
+        <iframe title="Kart over Vitablendz på Klubbgata 5 i Stavanger" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Vitablendz%20Arcade%20Torgterrassen%2C%20Klubbgata%205%2C%204013%20Stavanger&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/images/logo.jpg" alt="Vitablendz"></a>
+        <p>Arkaden Torgterrassen, Stavanger sentrum.</p>
+      </div>
+      <div>
+        <h3>Besøk</h3>
+        <p>Klubbgata 5, 4013 Stavanger<br><a href="tel:+4795824330">958 24 330</a><br><a href="mailto:info@vitablendz.no">info@vitablendz.no</a></p>
+      </div>
+      <div>
+        <h3>Åpent</h3>
+        <p>Hverdager 10:00–20:00<br>Lørdag 10:00–18:00<br>Søndag stengt</p>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <span>© <span data-year></span> Vitablendz AS</span>
+      <span>Blend your Boost</span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
